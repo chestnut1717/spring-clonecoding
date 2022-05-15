@@ -1,0 +1,15 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: demo
+
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://3.39.32.85:3306/test
+#    jdbc:mysql://3.39.32.85:3306/test?serverTimezone=UTC&characterEncoding=UTF-8
+    username: test
+    password: psh13849983
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전
+    # driver-class-name: com.mysql.jdbc.Driver # mysql 5버전uild/libs/demo-0.0.1
